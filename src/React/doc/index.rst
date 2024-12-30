@@ -14,6 +14,7 @@ Symfony UX React supports React 18+.
 
 Installation
 ------------
+Make sure you have WebpackEncore if you are not working with AssetMapper. You can install and configure Webpack Encore through the `Symfony Encore bundle`_. This will modify your ``base.html.twig`` template and create ``assets/app.js``, in addition to adding and modifying other configuration, which will in turn help you get started faster with the UX React bundle.
 
 .. note::
 
@@ -156,3 +157,4 @@ https://symfony.com/doc/current/contributing/code/bc.html
 .. _`Symfony UX initiative`: https://ux.symfony.com/
 .. _`Symfony UX React demo`: https://ux.symfony.com/react
 .. _`Turbo`: https://turbo.hotwire.dev/
+.. _`Symfony Encore bundle`: https://symfony.com/doc/current/frontend/encore/installation.html
